@@ -1,0 +1,100 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profilePhoto{
+    width: 150px;
+    border-radius: 15px;
+}
+h1{
+    font-size: 24px;
+    color: #4e5150;
+}
+h2{
+    font-size: 14px;
+    color: #a9a9a9;
+}
+.number{
+    font-size: 18px;
+    color: #4e5150;
+}
+.type{
+    font-size: 14px;
+    color: #bdbdbd;
+}
+#stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 350px;
+    gap: 15px;
+    margin: 10px 0px 20px 0px;
+}
+.stats{
+    background: #E5E5E5;
+    border-radius: 12px;
+    width: 120px;
+}
+main{
+    display: flex;
+    justify-items: center;
+    width: 100vw;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 100vw;
+}
+.photo{
+    border-radius: 50px;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.one{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.three{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.four{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.five{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.six{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+footer{
+    font-weight: 500;
+}
